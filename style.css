@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container{
+    background-color: darkblue;
+    width: 70vw;
+    height: 70vh;
+    border-radius: 30px;
+    padding: 50px;
+}
+.image img{
+    width: 15vw;
+    padding:5px;
+    transform: translateX(70px);
+}
+.image{
+    background-color: black;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding: 80px 0px;
+    border-radius: 20px;
+}
+.side{
+    transform: translateX(350px); 
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+}
+.side span{
+    font-size: larger;
+    font-weight: bolder;
+    color: lightgrey;
+}
+.side p{
+    color: lightgrey;
+    font-size: medium;
+}
+/* .side h1{
+    font-size: ;
+} */
+.song{
+    transform: translateX(500px);
+}
