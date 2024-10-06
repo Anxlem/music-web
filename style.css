@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: red;
+    background-color: blue;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -48,9 +48,6 @@ body{
     color: lightgrey;
     font-size: medium;
 }
-/* .side h1{
-    font-size: ;
-} */
 .song{
     transform: translateX(500px);
 }
